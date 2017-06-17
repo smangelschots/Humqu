@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="src\components" />
     <Folder Include="wwwroot\lib\bootstrap\fonts" />
     <Folder Include="wwwroot\lib\bootstrap\grunt" />
     <Folder Include="wwwroot\lib\bootstrap\js" />

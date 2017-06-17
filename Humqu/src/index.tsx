@@ -1,14 +1,11 @@
-import * as React from "react"
-import * as ReactDOM from "react-dom"
+import * as React from 'react'
+import { render } from 'react-dom'
+import { hello, goodbye } from './comp/lib'
 
-const App = () => {
-    return (
-        <div>
-            <p>Hello world from steve!</p>
-        </div>
-    );
-};
-
-if(typeof document !== "undefined")
-    ReactDOM.render(<App/>, document.getElementById('app'));
-
+render(
+    <div>
+        {hello}
+        {goodbye}
+    </div>,
+    document.getElementById('app')
+)
